@@ -1,0 +1,49 @@
+.title{
+	padding:40px;
+	display: flex;
+	font-size:100px;
+	color:Black;
+	justify-content: center;
+	margin:auto;
+}
+.table{
+	width:600px;
+	margin:100px;
+	margin-left:630px;
+	border:3px solid gray;
+	text-align:center;
+	border-radius:10%;
+	background:url(fon.jpg);
+	background-size: 400px;
+	background-position: 150% 3%;
+}
+#clock{
+	text-align:center;
+	color:SpringGreen;
+	font-size:100px;	
+}
+#day{
+	text-align:center;
+	color:SpringGreen;
+	font-size:50px;
+	padding-top:20px;
+}
+
+body {
+    animation: changeBackground 60s infinite;
+	animation-timing-function: linear;
+}
+@keyframes changeBackground {
+0% {
+	background: url(pixel3.gif);
+	background-size: 100%;
+}
+50% {
+	background: url(pixel.gif);
+	background-size: 100%;
+}
+100% {
+	background:url(pixel1.gif);
+	background-size: 100%;
+}
+}
